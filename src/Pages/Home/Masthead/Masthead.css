@@ -1,0 +1,77 @@
+#Top {
+    /* background-image: linear-gradient(135deg, #086199 10%, #595812 100%); */
+
+    font-family: 'Zilla Slab', serif;
+}
+
+#Masthead {
+    margin-bottom: 0;
+}
+
+#Masthead {
+    background: transparent;
+}
+
+.countdown-number {
+    font-weight: 900;
+    font-size: 3em;
+    color: var(--countdown-number-color);
+}
+
+.countdown-text {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2em;
+    color: var(--countdown-unit-color);
+}
+
+.competetion-name {
+    font-weight: 900;
+    font-size: 2.5em;
+    color: var(--masthead-unit-color);
+}
+
+.competetion-date {
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    color: var(--masthead-unit-color);
+}
+
+.competetion-place {
+    text-align: center;
+    color: var(--masthead-unit-color);
+}
+
+.btn-join {
+    margin-right: 10px;
+    background-color: #212529 !important;
+    border: 0px solid transparent !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid transparent !important;
+}
+
+.btn-join:hover {
+    background-color: #212529d5 !important;
+}
+
+.btn-join:focus {
+    border-bottom: 1px solid white !important;
+}
+
+.btn-getinvite {
+    margin-right: 10px;
+    background-color: #282b2e !important;
+    border: 0px solid transparent !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid transparent !important;
+}
+
+.btn-getinvite:hover {
+    background-color: #282b2ed5 !important;
+}
+
+.btn-getinvite:focus {
+    border-bottom: 1px solid white !important;
+}
+

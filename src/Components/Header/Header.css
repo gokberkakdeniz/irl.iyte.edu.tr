@@ -1,0 +1,19 @@
+.navbar-default {
+    background-color: var(--navbar) !important;
+    min-height: 75px;
+    position: sticky;
+}
+
+.nav-link{
+    font-size: 0.9em;
+    font-weight: 700;
+    color: inherit;
+}
+
+.navbar-default > .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-toggler {
+    border: 0;
+}

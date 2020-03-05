@@ -1,0 +1,10 @@
+#notfound {
+  text-align: center;
+  color: slategrey;
+  font-family: 'Zilla Slab', serif;
+  padding-top: 100px;
+}
+
+#notfound div.section-content h1 {
+  margin-top: 25px;
+}

@@ -1,0 +1,24 @@
+#about-categories {
+  margin-bottom: 0 !important;
+}
+
+#about-top {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/kapaklar/irl15_5.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 400px;
+  text-align: center;
+}
+
+#about-top span {
+  font-family: 'Zilla Slab', sans-serif;
+  font-weight: 900;
+  font-size: 3em;
+  color: #dce6e6;
+  line-height: 400px;
+  background-color: var(--accent6);
+  padding: 5px 15px;
+}

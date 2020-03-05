@@ -1,0 +1,29 @@
+footer {
+    padding-top: 25px;
+    background-color: var(--footer-background);
+}
+
+footer * {
+    color: var(--footer-text);
+    font-style: normal;
+}
+
+.footer-copyright {
+    padding: 15px 0 0 0;
+    font-size: 11px;
+    text-align: center;
+}
+
+.footer-link {
+    margin: 0 3px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: var(--accent1);
+    text-decoration: none;
+}
+
+.footer-link svg {
+    margin: 0 3px;
+}

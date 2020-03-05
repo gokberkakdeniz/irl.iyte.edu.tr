@@ -1,0 +1,23 @@
+:root {
+  --accent1: #EB5040;
+  --accent2: #D11500;
+  --accent3: #9E1000;
+  --accent4: #573531;
+  --accent5: #520800;
+  --accent6: #100E17;
+  --accent7: #212529;
+  
+  --navbar: #1A1A1D;
+  --navbar-percent1: 50%;
+  --navbar-accent1: var(--accent2);
+  --navbar-percent2: 100%;
+  --navbar-accent2: var(--accent1);
+  
+  --masthead-text-color: white;
+  --countdown-number-color: var(--accent7);
+  --countdown-unit-color: var(--accent7);
+
+
+  --footer-background: #1A1A1D;
+  --footer-text: white;
+}
