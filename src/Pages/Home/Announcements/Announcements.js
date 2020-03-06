@@ -1,5 +1,6 @@
 import React from 'react'
 import { Section } from './../../../Components'
+import { Badge } from 'react-bootstrap'
 
 export default class Announcements extends React.Component {
   render() {
@@ -8,30 +9,13 @@ export default class Announcements extends React.Component {
         title="Haberler ve Duyurular"
         accent="tomato"
       >
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate et architecto, illo reprehenderit debitis harum? 
-          Veritatis accusamus quam saepe, voluptates officia recusandae consectetur. Iste, totam?
-        </p>
+        <h3>
+          irl.iyte.edu.tr v0.2 <Badge variant="secondary">06.04.2020</Badge>
+        </h3>
 
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Accusamus tempora eius blanditiis quae quisquam nulla, 
-          non officiis tenetur illum recusandae maxime corporis 
-          officia pariatur quos vero cupiditate odio est. 
-          Repellat illum perspiciatis nesciunt omnis harum sunt
-          rem labore neque aliquid, at amet blanditiis? 
-          Doloremque sed dolorum omnis explicabo, dolor incidunt?
-        </p>
-
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Accusamus tempora eius blanditiis quae quisquam nulla, 
-          non officiis tenetur illum recusandae maxime corporis 
-          officia pariatur quos vero cupiditate odio est. 
-          Repellat illum perspiciatis nesciunt omnis harum sunt
-          rem labore neque aliquid, at amet blanditiis? 
-          Doloremque sed dolorum omnis explicabo, dolor incidunt?
-        </p>
+          github: <a href="https://github.com/ieeeiztech/irl.iyte.edu.tr" className="href">https://github.com/ieeeiztech/irl.iyte.edu.tr</a>
+        </p>        
       </Section>
     )
   }

@@ -36,16 +36,24 @@ const countdownRenderer = ({ total, days, hours, minutes, seconds, completed }) 
         )
     
     return (
-        <p>
+        <p style={{textAlign: "right"}}>
             <span className="countdown-number">{days}</span>
-            <span className="countdown-text">gün, </span><br/>
+            <span className="countdown-text">GÜN</span><br/>
             <span className="countdown-number">{hours}</span>
-            <span className="countdown-text">saat, </span><br/>
+            <span className="countdown-text">SAAT</span><br/>
             <span className="countdown-number">{minutes}</span>
-            <span className="countdown-text">dakika, </span><br/>
+            <span className="countdown-text">DAKİKA</span><br/>
             <span className="countdown-number">{seconds}</span>
-            <span className="countdown-text">saniye</span>
+            <span className="countdown-text">SANİYE</span>
         </p>
+        // <>
+        //     <div className="countdown number">
+        //         {days}
+        //     </div>
+        //     <div className="countdown text">
+        //         gün
+        //     </div>
+        // </>
     )
     
 }
