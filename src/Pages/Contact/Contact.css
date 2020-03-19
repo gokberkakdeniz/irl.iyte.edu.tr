@@ -1,11 +1,32 @@
+#contacts {
+  padding-left: -15px;
+}
+
 .contacts-col {
-  min-height: 475px
+  padding: 0;
 }
 
 .people {
-  max-width: 256px;
+  border: 0;
+  border-radius:0px !important;
+  margin: 10px;
+}
+
+.people .card-img-top {
+  border-radius:0px !important;
+  text-align: center;
+  max-height: 346.667px;
+  max-width: 346.667px;
+}
+
+.contacts-col:nth-child(odd) * {
+  background-color: whitesmoke;
+}
+
+.contacts-col:nth-child(even) * {
+  background-color: aliceblue;
 }
 
 .people-icon {
-  padding-right:  5px;
+  padding-right: 5px;
 }

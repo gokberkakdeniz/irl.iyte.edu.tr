@@ -1,29 +1,57 @@
 footer {
     padding-top: 25px;
-    background-color: var(--footer-background);
+    background-color: var(--footer);
 }
 
-footer * {
+footer p {
     color: var(--footer-text);
     font-style: normal;
 }
 
-.footer-copyright {
-    padding: 15px 0 0 0;
-    font-size: 11px;
-    text-align: center;
+.collapsable-container {
+    display: inline;
+}
+
+.collapsable {
+    display: inline-block;    
 }
 
 .footer-link {
     margin: 0 3px;
     text-decoration: none;
+    font-size: 12px;
+    color: var(--footer-link);
 }
 
 .footer-link:hover {
-    color: var(--accent1);
-    text-decoration: none;
+    color: inherit;
+    text-decoration: underline;
 }
 
 .footer-link svg {
     margin: 0 3px;
+    display: inline;
+}
+
+.footer-bottom {
+    font-size: 11px;
+    text-align: center;
+}
+
+#footer-coded {
+    color: var(--footer-coded);
+}
+
+#footer-love {
+    color: var(--footer-love);
+}
+
+#student-club-name {
+    font-size: 16px;
+    color: var(--footer-student-club-name);
+}
+
+#student-club-address {
+    font-size: 14px;
+    color: var(--footer-student-club-address);
 }

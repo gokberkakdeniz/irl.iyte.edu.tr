@@ -1,19 +1,39 @@
 .navbar-default {
     background-color: var(--navbar) !important;
-    min-height: 75px;
     position: sticky;
+    padding: 0 16px;
 }
 
-.nav-link{
-    font-size: 0.9em;
-    font-weight: 700;
-    color: inherit;
+#navbar-menu .navbar-nav {
+    min-height: 45px;
 }
 
-.navbar-default > .navbar-brand {
+.nav-link {
+    font-size: 14px;
+    line-height: 45px;
     font-weight: 700;
+    color: var(--navbar-link);
+    outline: none;
+}
+
+.nav-link.active:not(#logo) {
+    color: var(--navbar-link-active);
+}
+
+.nav-link:not(#logo):hover {
+    color: var(--navbar-link-hover);
+    background-color: var(--navbar-link-hover-background);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    padding: 0;
 }
 
 .navbar-toggler {
     border: 0;
+}
+
+#logo {
+    color: var(--navbar-brand);
 }

@@ -36,7 +36,7 @@ const countdownRenderer = ({ total, days, hours, minutes, seconds, completed }) 
         )
     
     return (
-        <p style={{textAlign: "right"}}>
+        <p style={{textAlign: "left"}}>
             <span className="countdown-number">{days}</span>
             <span className="countdown-text">GÜN</span><br/>
             <span className="countdown-number">{hours}</span>

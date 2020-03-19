@@ -1,14 +1,9 @@
 import React from 'react';
-import { Switch, Route } from "react-router-dom";
-
+import { Switch, Route, withRouter } from "react-router-dom";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faFacebookSquare, faLinkedin, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faPhone, faLocationArrow, faLink, faSadTear, faRobot } from '@fortawesome/free-solid-svg-icons'
-
-import { 
-  Header,
-  Footer
-} from './Components'
+import { Header, Footer, ScrollToTop } from './Components'
 
 import {
   About,
@@ -27,27 +22,29 @@ import './App.css'
 
 library.add(faFacebookSquare, faLinkedin, faInstagram, faTwitter, faEnvelope, faPhone, faLocationArrow, faLink, faSadTear, faRobot)
 
+const Scroll = withRouter(ScrollToTop);
+
 function App() {
   return (
     <div className="App">
       <Header />
-      
-      <section>
-        <Switch>
-          <Route exact path="/" children={ <Home /> } />
-          <Route path="/about" children={ <About /> } />
-          <Route path="/archive" children={ <Archive /> } />
-          {/* <Route path="/categories" children={ <Categories /> } /> */}
-          <Route path="/contact" children={ <Contact /> } />
-          <Route path="/invitation" children={ <Invitation /> } />
-          <Route path="/register" children={ <Registration /> } />
-          <Route path="/surviving" children={ <Surviving /> } />
-          <Route path="/sponsors" children={ <Sponsors /> } />
-          <Route path="/team" children={ <Team /> } />
-          <Route component={NotFound} />
-        </Switch>
-      </section>
-
+        <section>
+          <Scroll>
+            <Switch>
+              <Route exact path="/" children={ <Home /> } />
+              <Route path="/about" children={ <About /> } />
+              <Route path="/archive" children={ <Archive /> } />
+              {/* <Route path="/categories" children={ <Categories /> } /> */}
+              <Route path="/contact" children={ <Contact /> } />
+              <Route path="/invitation" children={ <Invitation /> } />
+              <Route path="/register" children={ <Registration /> } />
+              <Route path="/surviving" children={ <Surviving /> } />
+              <Route path="/sponsors" children={ <Sponsors /> } />
+              <Route path="/team" children={ <Team /> } />
+              <Route component={NotFound} />
+            </Switch>
+          </Scroll>
+        </section>
       <Footer />
     </div>
   );

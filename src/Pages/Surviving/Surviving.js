@@ -4,7 +4,7 @@ import Title from '../Title'
 import './Surviving.css'
 
 export default class Surviving extends React.Component {
-  render() {
+  render() { // 38.397454,27.065667,19z
     return (
       <>
         <Title pageName="Ulaşım ve Konaklama"></Title>
@@ -13,7 +13,7 @@ export default class Surviving extends React.Component {
           title="Hayatta Kalma Rehberi"
         >
           <p>
-            Etkinlik esnasındaki ulaşım, yemek, konaklama ve okul içi bilgilendirmeler için IZTECH RoboLeague’19 Hayatta Kalma Rehberi’ne göz atın!
+            Etkinlik esnasındaki ulaşım, yemek, konaklama ve okul içi bilgilendirmeler için IZTECH RoboLeague’20 Hayatta Kalma Rehberi’ne göz atın!
           </p>
         </Section>
 
@@ -55,7 +55,12 @@ export default class Surviving extends React.Component {
             Haritanın sol üst köşesinde bulunan "Daha büyük haritayı görüntüle" butonuna tıklayarak yol tarifi alabilirsiniz.
           </p>
 
-          <p><b>TODO: BURAYA HARİTAYI EKLE</b></p>
+          <iframe
+            title="İYTE harita"
+            src="https://maps.google.com/maps?width=100%&amp;height=400&amp;hl=en&amp;q=Fahrettin%20Altay%20yeni%20aktarma%20merkezi+(Fahrettin%20Altay%20yeni%20aktarma%20merkezi)&amp;ie=UTF8&amp;t=&amp;z=18&amp;iwloc=B&amp;output=embed" 
+            style={{border: "0", width: "100%", height: "400px"}}
+            frameBorder="0"
+          ></iframe>
 
           <p>
             Özel araç ile İzmir-Çeşme Otoyolu Karaburun gişelerinden çıktıktan 5 km sonra Çeşme-Karaburun yol ayrımında kampüs girişini görebilirsiniz.
@@ -68,7 +73,12 @@ export default class Surviving extends React.Component {
             Haritanın sol üst köşesinde bulunan "Daha büyük haritayı görüntüle" butonuna tıklayarak yol tarifi alabilirsiniz.
           </p>
 
-          <p><b>TODO: BURAYA HARİTAYI EKLE</b></p>
+          <iframe
+            title="İYTE harita"
+            src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Palmiye%20Hac%C4%B1%20%C4%B0sa%20Belediye%20Cad%20No%3A%2037%2FA+()&amp;ie=UTF8&amp;t=&amp;z=18&amp;iwloc=B&amp;output=embed" 
+            style={{border: "0", width: "100%", height: "400px"}}
+            frameBorder="0"
+          ></iframe>
         </Section>
 
         <Section

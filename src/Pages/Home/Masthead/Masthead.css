@@ -1,6 +1,12 @@
 #Top {
   /* background-image: linear-gradient(135deg, #086199 10%, #595812 100%); */
-
+  background-image: var(--home-masthead-filter), url('/images/home/masthead.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: darken;
+  text-align: center;
   font-family: 'Zilla Slab', serif;
 }
 
@@ -15,7 +21,7 @@
 .countdown-number {
   font-weight: 900;
   font-size: 3em;
-  color: var(--countdown-number-color);
+  color: var(--home-countdown-number);
 }
 
 .countdown-number::after {
@@ -25,7 +31,7 @@
 .countdown-text {
   font-weight: 900;
   font-size: 1.2em;
-  background-color: var(--countdown-unit-color);
+  background-color: var(--home-countdown-unit);
   color: white;
   padding: 2px 5px;
 }
@@ -33,19 +39,19 @@
 .competetion-name {
   font-weight: 900;
   font-size: 2.5em;
-  color: var(--masthead-unit-color);
+  color: var(--home-competetion-name);
 }
 
 .competetion-date {
   font-weight: bold;
   font-size: 2em;
   text-align: center;
-  color: var(--masthead-unit-color);
+  color: var(--home-competetion-date);
 }
 
 .competetion-place {
   text-align: center;
-  color: var(--masthead-unit-color);
+  color: var(--home-competetion-place);
 }
 
 .btn-join {
