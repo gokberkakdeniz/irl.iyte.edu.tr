@@ -1,5 +1,5 @@
 # irl.iyte.edu.tr
-The source code of IZTECH RoboLeague web site made with React JS and React Bootstrap.
+The source code of IZTECH RoboLeague website made with React JS and React Bootstrap.
 
 > Live in [irl.gokberkakdeniz.com](http://irl.gokberkakdeniz.com) during development.
 
