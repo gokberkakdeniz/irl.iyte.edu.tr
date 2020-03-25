@@ -13,7 +13,6 @@
     line-height: 45px;
     font-weight: 700;
     color: var(--navbar-link);
-    outline: none;
 }
 
 .nav-link.active:not(#logo) {

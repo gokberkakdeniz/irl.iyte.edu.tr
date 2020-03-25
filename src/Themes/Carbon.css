@@ -1,8 +1,10 @@
 /*
   Carbon Theme: Black and White
 
-  This is base theme for IRL website.
+  Author: Gökberk Akdeniz
 */
+
+/* ############### VARIABLES ############## */
 
 :root {
   --accent1: #EB5040;
@@ -13,13 +15,52 @@
   --accent6: #100E17;
   --accent7: #212529;
   
-  --navbar: black;
+  /* ====================================== */
+  /* ============= COMPONENTS ============= */
+  /* ====================================== */
+
+  /* --------------- HEADER --------------- */
+  --navbar: #000000;
   --navbar-brand: #FFFFFF;
   --navbar-link: #808080;
   --navbar-link-active: #FFFFFF;
   --navbar-link-hover: #000000;
   --navbar-link-hover-background: #FFFFFF;
 
+  /* --------------- FOOTER --------------- */
+  --footer: #000000;
+  --footer-student-club-name: #FFFFFF;
+  --footer-student-club-address: #CCCCCC;
+  --footer-text: #FFFFFF;
+  --footer-link: #999999;
+  --footer-coded: #4682B4;
+  --footer-love: #E25555;
+
+  /* --------------- SECTION --------------- */
+  --section-title: #DCE6E6;
+  --section-title-background: #100E17;
+  --section-accent: #4682B4;
+
+  /* ====================================== */
+  /* ================ PAGES =============== */
+  /* ====================================== */
+  
+  /* ---------------- ABOUT --------------- */
+  --about-masthead-text: #dce6e6;
+  --about-masthead-text-background: #100E17;
+  --about-masthead-filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  
+  /* --------------- ARCHIVE -------------- */
+
+  /* ------------- CATEGORIES ------------- */
+
+  /* --------------- CONTACT -------------- */
+  --contact-people-odd: #100E17;
+  --contact-people-odd-background: #cdd6d6;
+  --contact-people-even: #100E17;
+  --contact-people-even-background: #cdd6d6;
+
+  /* ---------------- HOME ---------------- */
   --home-masthead-filter: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   --home-competetion-name: #FFFFFF;
   --home-competetion-place: #FFFFFF;
@@ -27,11 +68,25 @@
   --home-countdown-number: #FFFFFF;
   --home-countdown-unit: #212529;
 
-  --footer: #000000;
-  --footer-student-club-name: #FFFFFF;
-  --footer-student-club-address: #cccccc;
-  --footer-text: #FFFFFF;
-  --footer-link: #999999;
-  --footer-coded: #4682B4;
-  --footer-love: #E25555;
+  /* ------------- INVITATION ------------- */
+
+  /* -------------- NOTFOUND -------------- */
+
+  /* ------------ REGISTRATION ------------ */
+
+  /* -------------- SPONSORS -------------- */
+
+  /* -------------- SURVIVING ------------- */
+
+  /* ---------------- TEAM ---------------- */
+
+}
+
+/* ################# CUSTOM ############### */
+
+body {
+  /* background-color: #ffffff; */
+  background-color: #CDDCDC;
+  background-image: radial-gradient(at 50% 100%, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), linear-gradient(to bottom, rgba(255,255,255,0.25) 0%, rgba(0,0,0,0.25) 100%);
+  background-blend-mode: screen, overlay;
 }

@@ -8,23 +8,25 @@
 
 .people {
   border: 0;
-  border-radius:0px !important;
+  /* border-radius:0px !important; */
   margin: 10px;
 }
 
 .people .card-img-top {
-  border-radius:0px !important;
+  /* border-radius:0px !important; */
   text-align: center;
   max-height: 346.667px;
   max-width: 346.667px;
 }
 
 .contacts-col:nth-child(odd) * {
-  background-color: whitesmoke;
+  color: var(--contact-people-odd);
+  background-color: var(--contact-people-odd-background);
 }
 
 .contacts-col:nth-child(even) * {
-  background-color: aliceblue;
+  color: var(--contact-people-even);
+  background-color: var(--contact-people-even-background);
 }
 
 .people-icon {

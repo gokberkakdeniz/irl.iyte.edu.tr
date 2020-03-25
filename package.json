@@ -1,6 +1,10 @@
 {
   "name": "irl.iyte.edu.tr",
   "version": "0.3.0",
+  "author": {
+    "name": "Gokberk AKDENİZ",
+    "url": "http://gokberkakdeniz.com/"
+  },
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
