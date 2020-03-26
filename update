@@ -1,0 +1,7 @@
+#!/bin/sh
+
+git pull
+npm run build
+rm -rf /usr/share/nginx/html/irl
+mv build /usr/share/nginx/html/irl
+chmod -R 750 /usr/share/nginx/html/irl
