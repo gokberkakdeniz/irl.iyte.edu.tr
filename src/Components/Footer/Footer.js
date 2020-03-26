@@ -1,9 +1,9 @@
 import React from 'react'
-import './Footer.css'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import { Row, Col, Container } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Map } from './../../Components'
+
+import './Footer.css'
 
 export default class Footer extends React.Component {
   render() {
@@ -12,13 +12,17 @@ export default class Footer extends React.Component {
         <Container >
           <Row>
             <Col align="center">
-              <iframe
+              <Map
+                mode="place"
                 title="İYTE harita"
-                src="https://maps.google.com/maps?q=izmir%20y%C3%BCksek%20teknoloji&t=&z=11&ie=UTF8&iwloc=&output=embed" 
-                style={{border: "0", width: "100%", height: "256px"}}
+                q="place_id:ChIJq6qqqvmQuxQRyQNl_qDBcO0"
+                zoom="12"
+                language="TR"
+                style={{ border: "0", width: "100%", height: "256px" }}
                 frameBorder="0"
-              ></iframe>
-              
+                allowFullScreen
+              ></Map>
+
               <br/>
               <br/>
 
@@ -32,7 +36,7 @@ export default class Footer extends React.Component {
                 </span>
               </p>
 
-              <p class="collapsable-container">
+              <p className="collapsable-container">
                 <a href="https://iyte.edu.tr" className="footer-link collapsable">
                   <FontAwesomeIcon icon="link" />
                   İYTE
@@ -69,11 +73,11 @@ export default class Footer extends React.Component {
               </p>
 
               <div className="footer-bottom collapsable-container">
-                <p class="footer-copyright collapsable">
+                <p className="footer-copyright collapsable">
                   Copyright © 2020, IZTECH RoboLeague. All rights are reserved. 
                 </p>
                 &nbsp;
-                <p class="collapsable">
+                <p className="collapsable">
                   <span id="footer-coded"> &lt;\&gt;</span> with <span id="footer-love">&lt;3</span> by Gökberk AKDENİZ. { /* DO NOT DELETE ME :'( */ }
                 </p>
               </div>

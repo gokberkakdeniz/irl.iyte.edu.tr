@@ -21,19 +21,22 @@
 .countdown-number {
   font-weight: 900;
   font-size: 3em;
-  color: var(--home-countdown-number);
-}
-
-.countdown-number::after {
-  content: " ";
+  background-color: black;
+  color: white;
+  mix-blend-mode: overlay;
 }
 
 .countdown-text {
   font-weight: 900;
   font-size: 1.2em;
-  background-color: var(--home-countdown-unit);
-  color: white;
-  padding: 2px 5px;
+  background-color: #ffffff;
+  /* padding: 2px 5px; */
+  color: black;
+  mix-blend-mode: screen;
+}
+
+.countdown-spacer {
+  height: 10px;
 }
 
 .competetion-name {

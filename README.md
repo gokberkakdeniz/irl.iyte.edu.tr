@@ -44,6 +44,13 @@ If you do not know React JS, you may start by reading [this](README.create-react
         │   └── Team
         └── Themes
 
+### Google Maps Embed API Key
+- Get your API Key to use [Google Maps Embed API](https://developers.google.com/maps/documentation/embed/start?hl=tr)
+- Create `.env.local` file in root directory with content:
+
+
+        REACT_APP_GOOGLE_API_KEY=YOUR_API_KEY_HERE
+
 ### Theming
 - Copy `src/Themes/Carbon.css` for base theme.
 - Edit new file as you want.

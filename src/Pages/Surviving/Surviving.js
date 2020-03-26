@@ -1,5 +1,5 @@
 import React from 'react'
-import { Section } from './../../Components'
+import { Section, Map } from './../../Components'
 import { Alert } from 'react-bootstrap'
 import Title from '../Title'
 import './Surviving.css'
@@ -63,17 +63,21 @@ export default class Surviving extends React.Component {
             Haritanın sol üst köşesinde bulunan "Daha büyük haritayı görüntüle" butonuna tıklayarak yol tarifi alabilirsiniz.
           </p>
 
-          <iframe
+          <Map
             title="İYTE harita"
-            src="https://maps.google.com/maps?width=100%&amp;height=400&amp;hl=en&amp;q=Fahrettin%20Altay%20yeni%20aktarma%20merkezi+(Fahrettin%20Altay%20yeni%20aktarma%20merkezi)&amp;ie=UTF8&amp;t=&amp;z=18&amp;iwloc=B&amp;output=embed" 
+            mode="place"
+            zoom="17"
+            q="place_id:ChIJiTZBAUTduxQRg3zGmXcQJ8U"
+            language="TR"
             style={{
-                border: "0", 
-                width: "100%", 
-                height: "400px",
-                margin: "14px 0 30px 0"
-              }}
+              border: "0", 
+              width: "100%", 
+              height: "400px",
+              margin: "14px 0 30px 0"
+            }}
             frameBorder="0"
-          ></iframe>
+            allowFullScreen
+          ></Map>
 
           <p>
             Özel araç ile İzmir-Çeşme Otoyolu Karaburun gişelerinden çıktıktan 5 km sonra Çeşme-Karaburun 
@@ -86,18 +90,22 @@ export default class Surviving extends React.Component {
             Araçlar Urla merkezde Palmiye Pastanesi önünden geçmektedir. Aşağıdaki harita Palmiye Pastanesini gösterir. 
             Haritanın sol üst köşesinde bulunan "Daha büyük haritayı görüntüle" butonuna tıklayarak yol tarifi alabilirsiniz.
           </p>
-
-          <iframe
+          
+          <Map
             title="İYTE harita"
-            src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Palmiye%20Hac%C4%B1%20%C4%B0sa%20Belediye%20Cad%20No%3A%2037%2FA+()&amp;ie=UTF8&amp;t=&amp;z=18&amp;iwloc=B&amp;output=embed" 
+            mode="place"
+            zoom="18"
+            q="place_id:ChIJ8Wy4L2KTuxQRsv_Et6WJjqw"
+            language="TR"
             style={{
               border: "0", 
               width: "100%", 
               height: "400px",
-              margin: "14px 0 0 0"
+              margin: "14px 0 30px 0"
             }}
             frameBorder="0"
-          ></iframe>
+            allowFullScreen
+          ></Map>
         </Section>
 
         <Section
