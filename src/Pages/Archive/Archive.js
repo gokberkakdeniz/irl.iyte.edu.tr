@@ -6,10 +6,7 @@ import Contests from './Contests'
 
 export default class Archive extends React.Component {
   render() {
-    let defaultActiveKey = window.location.hash.substring(1);
-    if (!Contests.find(c => c.name.substring(3) === defaultActiveKey)) {
-      defaultActiveKey = Contests[0].name.substring(3);
-    }
+    const defaultActiveKey = window.location.hash.substring(1) || Contests[0].name.substring(3);
       
     return (
       <>
