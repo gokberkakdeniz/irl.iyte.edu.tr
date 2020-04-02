@@ -7,10 +7,12 @@ import Contests from './Contests'
 export default class Archive extends React.Component {
   render() {
     let defaultActiveKey = window.location.hash.substring(1);
+    console.log(Contests)
     if (!Contests.find(c => c.name.substring(3) === defaultActiveKey)) {
       defaultActiveKey = Contests[0].name.substring(3);
     }
-      
+    console.log(defaultActiveKey)
+
     return (
       <>
         <Title pageName="Arşiv"></Title>
