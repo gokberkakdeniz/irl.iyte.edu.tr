@@ -11,15 +11,6 @@ import Button from 'react-bootstrap/Button'
 
 import './Masthead.css'
 
-const FormButtons = ({ mobile }) => {
-  return (
-    <p className="d-block d-xl-none text-center">
-      <Button className="btn-join shadow-none">Kayıt Ol</Button>
-      <Button className="btn-getinvite shadow-none">Davetiye İste</Button>
-    </p>
-  )
-}
-
 const countdownRenderer = ({ total, days, hours, minutes, seconds, completed }) => {
   if (completed) return <></>;
 
@@ -72,15 +63,16 @@ export default class Masthead extends React.Component {
         <Jumbotron fluid id="masthead">
           <Container>
             <Row>
-              <Col xl={{ order: 0, span: 10 }} xs={{ order: 0, span: 12 }}>
+              <Col xl={2} xs={0}></Col> { /* to make centered */ }
+              <Col xl={{ order: 0, span: 8 }} xs={{ order: 0, span: 12 }}>
                 <p className="competetion">
                   <span className="competetion-name">IZTECH RoboLeague'20</span>
-                  <br />
                   <span className="competetion-date">19-20 Ekim 2020</span>
-                  <br />
                   <span className="competetion-place">İzmir Yüksek Teknoloji Enstitüsü Kampüsü</span>
+                  <br/>
+                  <Button className="btn-join shadow-none">Kayıt Ol</Button>
+                  <Button className="btn-getinvite shadow-none">Davetiye İste</Button>
                 </p>
-                <FormButtons />
               </Col>
               <Col xl={{ offset: 0, order: 0, span: 2 }} xs={{ order: 1, span: 12 }}>
                 <Countdown date={new Date(2020, 10, 15)} renderer={countdownRenderer}></Countdown>
