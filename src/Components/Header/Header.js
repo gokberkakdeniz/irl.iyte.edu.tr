@@ -8,13 +8,13 @@ import './Header.css'
 export default class Header extends React.Component {
   render() {
     return (
-      <Navbar bg="dark" variant="dark" expand="lg" className="navbar-default" fixed="top">
+      <Navbar collapseOnSelect bg="dark" variant="dark" expand="lg" className="navbar-default" fixed="top">
         <Navbar.Brand>
           <LinkContainer exact to="/">
               <Nav.Link id="logo">IRL</Nav.Link>
             </LinkContainer>
           </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbar-menu" className="justify-content-end"/>
+        <Navbar.Toggle className="justify-content-end"/>
         <Navbar.Collapse id="navbar-menu" className="justify-content-end">
           <Nav className="navbar-nav-default" align="center">
             <LinkContainer exact to="/">
