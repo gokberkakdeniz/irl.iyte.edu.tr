@@ -5,7 +5,7 @@ export default class IRL2012 extends React.Component {
   render() {
     return (
       <>
-       <IRLBase year="2012">
+       <IRLBase year="2012" {...this.props}>
           <p>
             Iztech RoboLeague (IRL), İzmir Yüksek Teknoloji Enstitüsü IEEE Öğrenci Kolu’nun 
             19 – 20 Ekim 2012 tarihleri arasında ilkini gerçekleştirdiği uluslararası bir 

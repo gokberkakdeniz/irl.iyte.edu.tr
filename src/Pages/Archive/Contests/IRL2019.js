@@ -5,8 +5,7 @@ import { Container, Col, Row, Image } from 'react-bootstrap'
 export default class IRL2019 extends React.Component {
   render() {
     return (
-      <>
-       <IRLBase year="2019">
+      <IRLBase year="2019" {...this.props}>
         <p>
           Yazılı değil, yazılması lazım.
         </p>
@@ -27,8 +26,7 @@ export default class IRL2019 extends React.Component {
             </Col>
           </Row>
         </Container>
-       </IRLBase>
-      </>
+      </IRLBase>
     )
   }
 }

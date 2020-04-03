@@ -6,7 +6,7 @@ export default class IRL2018 extends React.Component {
   render() {
     return (
       <>
-       <IRLBase year="2018">
+       <IRLBase year="2018" {...this.props}>
         <p>
           IZTECH RoboLeague'18, Türkiye’nin dört bir yanından sayıları 1000’in üzerinde her yaştan 
           robot meraklılarının katılımıyla 20-21 Ekim 2018 tarihlerinde İYTE Kampüsü’nde (Makine 

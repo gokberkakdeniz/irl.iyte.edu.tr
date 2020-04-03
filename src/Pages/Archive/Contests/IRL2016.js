@@ -6,7 +6,7 @@ export default class IRL2016 extends React.Component {
   render() {
     return (
       <>
-       <IRLBase year="2016">
+       <IRLBase year="2016" {...this.props}>
         <p>
           IZTECH Roboleague, her sene olduğu gibi 22-23 Ekim 2016 tarihlerinde de İYTE Kampüsü'nde 
           her yaştan robot meraklılarının robotlarını yarıştırmalarına olanak sağladı. Mini Sumo, 

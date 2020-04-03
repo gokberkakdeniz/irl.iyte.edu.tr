@@ -6,7 +6,7 @@ export default class IRL2015 extends React.Component {
   render() {
     return (
       <>
-       <IRLBase year="2015">
+       <IRLBase year="2015" {...this.props}>
         <p>
           IZTECH RoboLeague 2015, Türkiye’nin dört bir yanından sayıları 1000’in üzerinde her yaştan 
           robot meraklılarının katılımıyla 24-25 Ekim 2015 tarihlerinde İYTE Kampüsü’nde (Makine Müh.

@@ -6,7 +6,7 @@ export default class IRL2013 extends React.Component {
   render() {
     return (
       <>
-       <IRLBase year="2013">
+       <IRLBase year="2013" {...this.props}>
         <p>
           Çeşitli üniversite, yüksekokul ve meslek lisesinden yaklaşık 750 katılımcının 
           250 projeyle yer aldığı yarışmada binin üzerindeki katılımcının yüzde 30’u lise, 

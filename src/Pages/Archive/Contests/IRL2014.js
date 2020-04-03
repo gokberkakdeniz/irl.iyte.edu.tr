@@ -6,7 +6,7 @@ export default class IRL2014 extends React.Component {
   render() {
     return (
       <>
-       <IRLBase year="2014">
+       <IRLBase year="2014" {...this.props}>
         <p>
           İzmir Yüksek Teknoloji Enstitüsünde (İYTE) üçüncüsü düzenlenen “IZTECH Roboleague’14” 
           robot Yarışması, Türkiye’nin dört bir yanından gelen robot meraklılarını İzmir’de 

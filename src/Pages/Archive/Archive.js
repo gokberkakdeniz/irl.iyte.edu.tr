@@ -6,11 +6,8 @@ import Contests from './Contests'
 
 export default class Archive extends React.Component {
   render() {
-    let defaultActiveKey = window.location.hash.substring(1);
-    if (!Contests.find(c => c.name.substring(3) === defaultActiveKey)) {
-      defaultActiveKey = Contests[0].name.substring(3);
-    }
-      
+    const defaultActiveKey = "irl" + (window.location.hash.substring(1, window.location.hash.length-2) || Contests.length);
+
     return (
       <>
         <Title pageName="Arşiv"></Title>
@@ -18,7 +15,7 @@ export default class Archive extends React.Component {
           title="Arşiv"
         >
           <Accordion defaultActiveKey={defaultActiveKey}>
-            {Contests.map(Contest => <Contest key={Contest.name} />)}
+            { Contests.map((Contest, id) => <Contest key={ "Contest" + id } contestNo={ Contests.length - id } />) }
           </Accordion>
         </Section>
       </>
