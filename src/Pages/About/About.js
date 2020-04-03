@@ -62,7 +62,6 @@ export default class About extends React.Component {
             içeriğini eğitim, seminer ve yarışmalar oluşturmaktadır. 
           </p>
 
-          <p>
           Yarışmanın ana kategorileri:
           <ul id="about-categories">
               <li>Çizgi İzleyen,</li>
@@ -76,8 +75,10 @@ export default class About extends React.Component {
               <li>Robothon</li>
           </ul>
           kategorileri olarak sıralanmaktadır.
-          </p>
-
+          
+          <br/>
+          <br/>
+          
           <p>
             Türkiye’de robot alanında bilgisi olan insanların boy ölçüştüğü 
             “TASARLA – YAP – YARIŞTIR” ve “Robothon” kategorisinin konsepti sadece 
