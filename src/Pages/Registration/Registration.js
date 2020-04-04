@@ -8,11 +8,17 @@ export default class Registration extends React.Component {
       <>
         <Title pageName="Kayıt"></Title>
         <Section
-          title="Kayıt"
+          title="IZTECH RoboLeague’20 Klasik Kategori Ön Kayıt Formu"
         >
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Vero ex fugiat totam, cumque dolore, atque quibusdam aliquam nihil corrupti temporibus ad quo eum, mollitia odio autem. Eos, accusamus?
+            ...
+          </p>
+        </Section>
+        <Section
+          title="IZTECH RoboLeague’19 Robothon Ön Kayıt Formu"
+        >
+          <p>
+            ...
           </p>
         </Section>
       </>
