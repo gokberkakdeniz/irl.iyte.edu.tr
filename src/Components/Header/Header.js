@@ -39,8 +39,8 @@ export default function Header(props) {
           <LinkContainer exact to="/surviving">
             <Nav.Link>Ulaşım ve Barınma</Nav.Link>
           </LinkContainer>
-          <LinkContainer to="/about">
-            <Nav.Link>Hakkımızda</Nav.Link>
+          <LinkContainer to="/sponsors">
+            <Nav.Link>Sponsorlar</Nav.Link>
           </LinkContainer>
           <LinkContainer to="/team">
             <Nav.Link>Ekibimiz</Nav.Link>
@@ -48,8 +48,8 @@ export default function Header(props) {
           <LinkContainer to="/archive">
             <Nav.Link>Arşiv</Nav.Link>
           </LinkContainer>
-          <LinkContainer to="/sponsors">
-            <Nav.Link>Sponsorlar</Nav.Link>
+          <LinkContainer to="/about">
+            <Nav.Link>Hakkımızda</Nav.Link>
           </LinkContainer>
           <LinkContainer to="/contact">
             <Nav.Link>İletişim</Nav.Link>
