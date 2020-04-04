@@ -10,9 +10,26 @@ export default class Invitation extends React.Component {
         <Section
           title="Davetiye"
         >
+          <h5>Davetiye Kimler İçindir?</h5>
+          
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Vero ex fugiat totam, cumque dolore, atque quibusdam aliquam nihil corrupti temporibus ad quo eum, mollitia odio autem. Eos, accusamus?
+            Katılım için davetiye zorunlu değildir.
+          </p>
+
+          <p>
+            Davetiye bağlı bulunduğunuz kurum ya da birim 
+            istediği taktirde okulumuzun SKS birimi tarafından
+            sizin biriminize doğrudan gönderilecektir. 
+            Bu nedenle vereceğiniz bilgiler önemlidir. 
+            Yanlış verilen bilgilerden kaynaklı ulaşmayan
+            belgelere ve kaybolan belgelere ait tüm 
+            sorumluluklar size aittir.
+          </p>
+
+          <h5>Davetiye Formu</h5>
+
+          <p>
+            ...
           </p>
         </Section>
       </>
