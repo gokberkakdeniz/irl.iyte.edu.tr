@@ -1,0 +1,23 @@
+.category {
+  background-color: rgb(31, 25, 25);
+  margin-bottom: 15px;
+}
+
+.category-left {
+  padding: 25px;
+  text-align: center;
+}
+
+.category-short-text {
+  min-height: 103px;
+}
+
+.category-name {
+  color: white;
+  font-family: 'Zilla Slab', serif;
+}
+
+.category-right {
+  padding: 25px;
+  background-color: #cdd6d6;
+}
