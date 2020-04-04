@@ -1,13 +1,7 @@
 import React from 'react'
-
 import Countdown from 'react-countdown'
-
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Jumbotron from 'react-bootstrap/Jumbotron'
-import Button from 'react-bootstrap/Button'
-
+import { Container, Button, Row, Col, Jumbotron } from 'react-bootstrap'
+import { LinkContainer } from 'react-router-bootstrap'
 
 import './Masthead.css'
 
@@ -70,8 +64,12 @@ export default class Masthead extends React.Component {
                   <span className="competetion-date">19-20 Ekim 2020</span>
                   <span className="competetion-place">İzmir Yüksek Teknoloji Enstitüsü Kampüsü</span>
                   <br/>
-                  <Button className="btn-join shadow-none">Kayıt Ol</Button>
-                  <Button className="btn-getinvite shadow-none">Davetiye İste</Button>
+                  <LinkContainer to="/register">
+                    <Button className="btn-join shadow-none">Kayıt Ol</Button>
+                  </LinkContainer>
+                  <LinkContainer to="/invitation">
+                    <Button className="btn-getinvite shadow-none">Davetiye İste</Button>
+                  </LinkContainer>
                 </p>
               </Col>
               <Col xl={{ offset: 0, order: 0, span: 2 }} xs={{ order: 1, span: 12 }}>
