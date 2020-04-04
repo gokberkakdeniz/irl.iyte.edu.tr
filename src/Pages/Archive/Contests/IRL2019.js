@@ -1,14 +1,14 @@
 import React from 'react'
 import IRLBase from './IRLBase'
-import { Container, Col, Row, Image } from 'react-bootstrap'
+import { Container, Col, Row, Image, Alert } from 'react-bootstrap'
 
 export default class IRL2019 extends React.Component {
   render() {
     return (
       <IRLBase year="2019" {...this.props}>
-        <p>
-          Yazılı değil, yazılması lazım.
-        </p>
+        <Alert variant="danger">
+          Yazı eksik, yazılması lazım.
+        </Alert>
 
         <Container>
           <Row>
