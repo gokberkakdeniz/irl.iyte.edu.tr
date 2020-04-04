@@ -8,6 +8,7 @@ import { Header, Footer, ScrollToTop } from './Components'
 import {
   About,
   Archive,
+  Categories,
   Contact,
   Home,
   Invitation,
@@ -15,7 +16,7 @@ import {
   Registration,
   Surviving,
   Sponsors,
-  Team
+  Team,
 } from './Pages'
 
 import './App.css'
@@ -34,7 +35,7 @@ function App() {
               <Route exact path="/" children={ <Home /> } />
               <Route path="/about" children={ <About /> } />
               <Route path="/archive" children={ <Archive /> } />
-              {/* <Route path="/categories" children={ <Categories /> } /> */}
+              <Route path="/categories" children={ <Categories /> } />
               <Route path="/contact" children={ <Contact /> } />
               <Route path="/invitation" children={ <Invitation /> } />
               <Route path="/register" children={ <Registration /> } />

@@ -8,10 +8,12 @@ import NotFound from './Pages/NotFound/NotFound';
 import Registration from './Pages/Registration/Registration';
 import Invitation from './Pages/Invitation/Invitation';
 import Surviving from './Pages/Surviving/Surviving';
+import Categories from './Pages/Categories/Categories';
 
 export {
   About,
   Archive,
+  Categories,
   Contact,
   Home,
   Invitation,
