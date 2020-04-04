@@ -15,7 +15,7 @@ export default class Registration extends React.Component {
           </p>
         </Section>
         <Section
-          title="IZTECH RoboLeague’19 Robothon Ön Kayıt Formu"
+          title="IZTECH RoboLeague’20 Robothon Ön Kayıt Formu"
         >
           <p>
             ...
