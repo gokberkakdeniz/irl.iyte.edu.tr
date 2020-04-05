@@ -12,6 +12,7 @@
 
 .list-group.ordered .list-group-item {
   background-color: var(--ordered-list);
+  border-radius: 0;
 }
 
 .list-group.ordered .list-group-item:before {
@@ -21,7 +22,6 @@
 
 .list-group.ordered .list-group-item:first-of-type {
   counter-reset: ordered;
-  border-radius: 0;
 }
 
 .list-group.ordered.from-second .list-group-item:first-of-type:before {
@@ -56,4 +56,12 @@
   background-color: var(--accordion-header);
   border-left: 4px solid var(--accordion-accent);
   font-family: 'Zilla Slab', serif;
+  margin-bottom: 1px;
+}
+
+/* --------------- Alert --------------- */
+.alert {
+  border-radius: 0;
+  border-left-width: 5px;
+  border-left-style: groove;
 }

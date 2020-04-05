@@ -7,7 +7,7 @@ export default class Announcements extends React.Component {
     return (
       <Section
         title="Haberler ve Duyurular"
-        accent="tomato"
+        accent="#D50025"
       >
         <h3>
           irl.iyte.edu.tr <Badge variant="secondary">04.04.2020</Badge>

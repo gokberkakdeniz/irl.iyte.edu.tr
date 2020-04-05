@@ -12,12 +12,16 @@ export default class IRL2014 extends React.Component {
             robot Yarışması, Türkiye’nin dört bir yanından gelen robot meraklılarını İzmir’de
             buluşturdu. 25-26 Ekim 2014 tarihlerinde Makine Mühendisliği Bölümünde yapılan
             yarışmalarda “Klasik robot yarışları ve Tasarla-Yap- Yarıştır” olmak üzere iki ana
-            kategoride robot yarışları gerçekleştirildi. IEEE İYTE Öğrenci Kolu tarafından
+            kategoride robot yarışları gerçekleştirildi.
+          </p>
+
+          <p>
+            IEEE İYTE Öğrenci Kolu tarafından
             düzenlenen 3. IZTECH RoboLeague yarışmasında dereceye girenler açıklanarak ödülleri
             verildi. Bu kategorilerden en ilgi çekeni Türkiye ve dünyada bir ilk olan “24 saatte
             Tasarla-Yap- Yarıştır" sloganlı yarışma oldu. Yenilikler, yaratıcı fikirler ve
             rekabetlerle dolu bu etkinlikte derece kazanan isimler ise şu şekilde sıralanıyor:
-        </p>
+          </p>
 
           <ListGroup className="ordered from-second" as="ol">
             <ListGroup.Item as="li">Yangın söndüren</ListGroup.Item>

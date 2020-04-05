@@ -12,20 +12,32 @@ export default class IRL2013 extends React.Component {
             250 projeyle yer aldığı yarışmada binin üzerindeki katılımcının yüzde 30’u lise,
             yüzde 60’ı üniversite, yüzde 10’u da firmalar düzeyinde oldu. İlköğretim
             öğrencilerinden oluşan ekiplerin de izleyici olarak ilgi gösterdiği organizasyonda
-            9 kategoride yapılan yarışmaların sonunda toplam 30 ödül verildi. 26-27 Ekim 2013
+            9 kategoride yapılan yarışmaların sonunda toplam 30 ödül verildi. 
+          </p>
+            
+          <p>
+            26-27 Ekim 2013
             tarihinde iki gün süren yarışmada, tasarla – yap – yarıştır kategorisinde hiç durmadan
             ve uyumadan 24 saatte robot yapmanın yanı sıra yangın söndüren, çizgi izleyen, mini sumo,
             çoklu mini sumo, sumo, arazi, roboworker ve serbest kategorilerde robot yarışmaları
-            düzenlendi. Etkinliğin en heyecanlı yarışmaları arasında Roboworker kategorisinde
+            düzenlendi. 
+          </p>
+          
+          <p>
+            Etkinliğin en heyecanlı yarışmaları arasında Roboworker kategorisinde
             Neotech’in ana sponsorluğunda düzenlenen “İnsansı Robotlarla Futbol Karşılaşması ve
             “40 Dakikada Kendi Robotunu Yap” workshopları yer aldı. ASELSAN Proje Geliştirme
             Müdürü Alper Erdener’in “İnsansız Araçlar” konulu bir sunum yaptığı etkinliğe pek
-            çok kurum ve kuruluş da destek verdi. KAZANANLAR İki gün süren yarışmalar sonucunda
+            çok kurum ve kuruluş da destek verdi. 
+          </p>
+            
+          <p>
+            İki gün süren yarışmalar sonucunda
             İYTE Makine Mühendisliği Bölümü Öğretim Üyesi Dr. Mehmet İsmet Candede, ASELSAN Proje
             Geliştirme Müdürü Alper Erdener, Neotek Ürün Geliştirme Müdür Yardımcısı Deniz Eren,
             Canop Mühendislikten Ruhi Dede, IZTECH Genel Koordinatörü Gizem Ateş ve Etiya’dan Uğur
             Gemici’den oluşan jürinin oylarıyla kazananlar ve kategorileri şöyle oldu:
-        </p>
+          </p>
 
           <ListGroup className="ordered from-second" as="ol">
             <ListGroup.Item as="li">Çizgi izleyen</ListGroup.Item>

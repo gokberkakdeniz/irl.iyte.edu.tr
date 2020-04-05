@@ -8,7 +8,7 @@ export default class Section extends React.Component {
     if (this.props.title) {
       Title = (
         <div className="section-title">
-          <div style={{	borderLeftColor: this.props.accent || "steelblue" }}>
+          <div style={{	borderLeftColor: this.props.accent }}>
             <span>{this.props.title}</span>
           </div>
         </div>

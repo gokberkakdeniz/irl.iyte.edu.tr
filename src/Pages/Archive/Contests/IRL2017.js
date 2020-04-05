@@ -12,11 +12,15 @@ export default class IRL2017 extends React.Component {
             robot meraklılarının katılımıyla 21-22 Ekim 2017 tarihlerinde İYTE Kampüsü’nde (Makine
             Müh. ve Kütüphane gösteri merkezinde) gerçekleşmiştir. 200’ü aşkın robot, 350’ü aşan
             yarışmacıya ev sahipliği yapmış, Türkiye'nin dört bir yanından katılımcıların olduğu bir
-            organizasyondur. Mini Sumo, Serbest, Çizgi İzleyen, Arazi, Tasarla-Yap-Yarıştır, Çizgi
+            organizasyondur.
+          </p>
+          
+          <p>
+            Mini Sumo, Serbest, Çizgi İzleyen, Arazi, Tasarla-Yap-Yarıştır, Çizgi
             Labirent kategorilerine ek olarak "Futro" kategorisi bu yıl ilk kez düzenlendi. Farklı
             kategorilerde ve workshoplarla birlikte toplamda 21 ödül sahiplerini buldu.
-        </p>
-
+          </p>
+          
           <ListGroup className="ordered from-second" as="ol">
             <ListGroup.Item as="li">Tasarla-Yap-Yarıştır</ListGroup.Item>
             <ListGroup.Item as="li">IEEE ODTÜ RAS</ListGroup.Item>

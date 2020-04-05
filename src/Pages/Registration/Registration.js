@@ -8,14 +8,14 @@ export default class Registration extends React.Component {
       <>
         <Title pageName="Kayıt"></Title>
         <Section
-          title="IZTECH RoboLeague’20 Klasik Kategori Ön Kayıt Formu"
+          title="Klasik Kategori Ön Kayıt Formu"
         >
           <p>
             ...
           </p>
         </Section>
         <Section
-          title="IZTECH RoboLeague’20 Robothon Ön Kayıt Formu"
+          title="Robothon Ön Kayıt Formu"
         >
           <p>
             ...
