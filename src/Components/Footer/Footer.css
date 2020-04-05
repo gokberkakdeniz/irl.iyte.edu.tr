@@ -16,6 +16,10 @@ footer p {
     display: inline-block;    
 }
 
+.collapsable a {
+    color: inherit;  
+}
+
 .footer-link {
     margin: 0 3px;
     text-decoration: none;

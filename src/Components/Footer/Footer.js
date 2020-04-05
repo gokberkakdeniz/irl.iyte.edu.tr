@@ -78,7 +78,7 @@ export default class Footer extends React.Component {
                 </p>
                 &nbsp;
                 <p className="collapsable">
-                  <span id="footer-coded"> &lt;\&gt;</span> with <span id="footer-love">&lt;3</span> by Gökberk AKDENİZ. { /* DO NOT DELETE ME :'( */ }
+                  <span id="footer-coded"> &lt;\&gt;</span> with <span id="footer-love">&lt;3</span> by <a href="http://gokberkakdeniz.com">Gökberk AKDENİZ</a>. { /* DO NOT DELETE ME :'( */ }
                 </p>
               </div>
             </Col>
