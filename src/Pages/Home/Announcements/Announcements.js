@@ -10,7 +10,7 @@ export default class Announcements extends React.Component {
         accent="#D50025"
       >
         <h3>
-          irl.iyte.edu.tr <Badge variant="secondary">04.04.2020</Badge>
+          irl.iyte.edu.tr <Badge variant="secondary">06.04.2020</Badge>
         </h3>
 
         <p>
