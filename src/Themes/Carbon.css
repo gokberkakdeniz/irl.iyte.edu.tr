@@ -53,6 +53,10 @@
   /* --------------- ARCHIVE -------------- */
 
   /* ------------- CATEGORIES ------------- */
+  --category-left: #1f1919;
+  --category-left-text: #ffffff;
+  --category-right: #cdd6d6;
+  --category-right-text: #1f1919;
 
   /* --------------- CONTACT -------------- */
   --contact-people-odd: #100E17;
@@ -65,12 +69,17 @@
   --home-competetion-name: #FFFFFF;
   --home-competetion-place: #FFFFFF;
   --home-competetion-date: #FFFFFF;
-  --home-countdown-number: #FFFFFF;
-  --home-countdown-unit: #212529;
+  --home-countdown-number: #000000;
+  --home-countdown-number-text: #FFFFFF;
+  --home-countdown-number-blend-mode: overlay;
+  --home-countdown-unit: #ffffff;
+  --home-countdown-unit-text: #000000;
+  --home-countdown-unit-blend-mode: screen;
 
   /* ------------- INVITATION ------------- */
 
-  /* -------------- NOTFOUND -------------- */
+  /* ------------- NOT FOUND -------------- */
+  --not-found-text: slategrey;
 
   /* ------------ REGISTRATION ------------ */
 

@@ -2,7 +2,6 @@ import React from 'react'
 import { Section, Map } from './../../Components'
 import { Alert } from 'react-bootstrap'
 import Title from '../Title'
-import './Surviving.css'
 
 export default class Surviving extends React.Component {
   render() {

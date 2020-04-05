@@ -1,6 +1,6 @@
 #notfound {
   text-align: center;
-  color: slategrey;
+  color: var(--not-found-text);
   font-family: 'Zilla Slab', serif;
   padding-top: 100px;
 }

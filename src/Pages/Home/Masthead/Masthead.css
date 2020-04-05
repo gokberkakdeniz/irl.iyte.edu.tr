@@ -30,17 +30,17 @@
 .countdown-number {
   font-weight: 900;
   font-size: 3em;
-  background-color: black;
-  color: white;
-  mix-blend-mode: overlay;
+  background-color: var(--home-countdown-number);
+  color: var(--home-countdown-number-text);
+  mix-blend-mode: var(--home-countdown-number-blend-mode);
 }
 
-.countdown-text {
+.countdown-unit {
   font-weight: 900;
   font-size: 1.2em;
-  background-color: #ffffff;
-  color: black;
-  mix-blend-mode: screen;
+  background-color: var(--home-countdown-unit);
+  color: var(--home-countdown-unit-text);
+  mix-blend-mode: var(--home-countdown-unit-blend-mode);
 }
 
 .competetion {

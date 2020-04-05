@@ -14,7 +14,7 @@ const countdownRenderer = ({ total, days, hours, minutes, seconds, completed }) 
         <div className="countdown-number">
           {days}
         </div>
-        <div className="countdown-text">
+        <div className="countdown-unit">
           GÜN
         </div>
       </div>
@@ -23,7 +23,7 @@ const countdownRenderer = ({ total, days, hours, minutes, seconds, completed }) 
         <div className="countdown-number">
           {hours}
         </div>
-        <div className="countdown-text">
+        <div className="countdown-unit">
           SAAT
         </div>
       </div>
@@ -32,7 +32,7 @@ const countdownRenderer = ({ total, days, hours, minutes, seconds, completed }) 
         <div className="countdown-number">
           {minutes}
         </div>
-        <div className="countdown-text">
+        <div className="countdown-unit">
           DAKİKA
         </div>
       </div>
@@ -41,7 +41,7 @@ const countdownRenderer = ({ total, days, hours, minutes, seconds, completed }) 
         <div className="countdown-number">
           {seconds}
         </div>
-        <div className="countdown-text">
+        <div className="countdown-unit">
           SANİYE
         </div>
       </div>

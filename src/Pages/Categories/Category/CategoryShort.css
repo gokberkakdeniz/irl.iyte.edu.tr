@@ -1,5 +1,5 @@
 .category {
-  background-color: rgb(31, 25, 25);
+  background-color: var(--category-left);
   margin-bottom: 15px;
 }
 
@@ -13,11 +13,12 @@
 }
 
 .category-name {
-  color: white;
+  color: var(--category-left-text);
   font-family: 'Zilla Slab', serif;
 }
 
 .category-right {
   padding: 25px;
-  background-color: #cdd6d6;
+  background-color: var(--category-right);
+  color: var(--category-right-text);
 }
