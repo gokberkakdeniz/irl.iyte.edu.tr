@@ -1,109 +1,109 @@
 import React from 'react'
 import IRLBase from './IRLBase'
-import { Container, Col, Row, Image } from 'react-bootstrap'
+import { Container, Col, Row, Image, ListGroup } from 'react-bootstrap'
 
 export default class IRL2015 extends React.Component {
   render() {
     return (
       <>
-       <IRLBase year="2015" {...this.props}>
-        <p>
-          IZTECH RoboLeague 2015, Türkiye’nin dört bir yanından sayıları 1000’in üzerinde her yaştan 
-          robot meraklılarının katılımıyla 24-25 Ekim 2015 tarihlerinde İYTE Kampüsü’nde (Makine Müh.
-          ve Kütüphane gösteri merkezinde) gerçekleşmiştir. 250’yi aşkın robot, 300’ü aşan yarışmacı 
-          sayısı ve toplamda 1000’den fazla kişiye ev sahipliği yapmış, Türkiye'nin dört bir yanından 
-          katılımcıların olduğu bir organizasyondur. Üç ana kategoriden oluşan IZTECH RoboLeague’e 
-          internet üzerinden yüzlerce robot sever kayıt yapmıştır. Farklı kategorilerde ve workshoplarla 
-          birlikte toplamda 26 ödül sahiplerini buldu. 
+        <IRLBase year="2015" {...this.props}>
+          <p>
+            IZTECH RoboLeague 2015, Türkiye’nin dört bir yanından sayıları 1000’in üzerinde her yaştan
+            robot meraklılarının katılımıyla 24-25 Ekim 2015 tarihlerinde İYTE Kampüsü’nde (Makine Müh.
+            ve Kütüphane gösteri merkezinde) gerçekleşmiştir. 250’yi aşkın robot, 300’ü aşan yarışmacı
+            sayısı ve toplamda 1000’den fazla kişiye ev sahipliği yapmış, Türkiye'nin dört bir yanından
+            katılımcıların olduğu bir organizasyondur. Üç ana kategoriden oluşan IZTECH RoboLeague’e
+            internet üzerinden yüzlerce robot sever kayıt yapmıştır. Farklı kategorilerde ve workshoplarla
+            birlikte toplamda 26 ödül sahiplerini buldu.
         </p>
 
-        <b>Tasarla-Yap-Yarıştır</b>
-        <ol>
-          <li>İTÜ – ARIGE</li>
-          <li>SAKARYA ÜNİVERSİTESİ</li>
-          <li>Yıldız Teknik Üniversitesi – YTUROK</li>
-        </ol>
+          <ListGroup className="ordered from-second" as="ol">
+            <ListGroup.Item as="li">Tasarla-Yap-Yarıştır</ListGroup.Item>
+            <ListGroup.Item as="li">İTÜ – ARIGE</ListGroup.Item>
+            <ListGroup.Item as="li">SAKARYA ÜNİVERSİTESİ</ListGroup.Item>
+            <ListGroup.Item as="li">Yıldız Teknik Üniversitesi – YTUROK</ListGroup.Item>
+          </ListGroup>
 
-        <b>Serbest Kategori</b>
-        <ol>
-          <li>Engelsiz Yaşam – Işıklar Askeri Hava Lisesi</li>
-          <li>Bal Porsuğu</li>
-          <li>Deaf and Mute</li>
-        </ol>
+          <ListGroup className="ordered from-second" as="ol">
+            <ListGroup.Item as="li">Serbest Kategori</ListGroup.Item>
+            <ListGroup.Item as="li">Engelsiz Yaşam – Işıklar Askeri Hava Lisesi</ListGroup.Item>
+            <ListGroup.Item as="li">Bal Porsuğu</ListGroup.Item>
+            <ListGroup.Item as="li">Deaf and Mute</ListGroup.Item>
+          </ListGroup>
 
-        <b>Çizgi İzleyen</b>
-        <ol>
-          <li>Kültür_Line_4 - Özel Bursa Kültür Okulları</li>
-          <li>Mi Manci – Karabük IEEE</li>
-          <li>Yoda</li>
-        </ol>
+          <ListGroup className="ordered from-second" as="ol">
+            <ListGroup.Item as="li">Çizgi İzleyen</ListGroup.Item>
+            <ListGroup.Item as="li">Kültür_Line_4 - Özel Bursa Kültür Okulları</ListGroup.Item>
+            <ListGroup.Item as="li">Mi Manci – Karabük IEEE</ListGroup.Item>
+            <ListGroup.Item as="li">Yoda</ListGroup.Item>
+          </ListGroup>
 
-        <b>Mini Sumo</b>
-        <ol>
-          <li>Kartal</li>
-          <li>KTO Aladağ</li>
-          <li>KTO Gaflet</li>
-        </ol>
+          <ListGroup className="ordered from-second" as="ol">
+            <ListGroup.Item as="li">Mini Sumo</ListGroup.Item>
+            <ListGroup.Item as="li">Kartal</ListGroup.Item>
+            <ListGroup.Item as="li">KTO Aladağ</ListGroup.Item>
+            <ListGroup.Item as="li">KTO Gaflet</ListGroup.Item>
+          </ListGroup>
 
-        <b>Çoklu Mini Sumo</b>
-        <ol>
-          <li>Prematüre</li>
-          <li>Çoklu Robot</li>
-          <li>Börtecine Karatay (İki tane Ücüncümüz vardır.)</li>
-        </ol>
+          <ListGroup className="ordered from-second" as="ol">
+            <ListGroup.Item as="li">Çoklu Mini Sumo</ListGroup.Item>
+            <ListGroup.Item as="li">Prematüre</ListGroup.Item>
+            <ListGroup.Item as="li">Çoklu Robot</ListGroup.Item>
+            <ListGroup.Item as="li">Börtecine Karatay (İki tane Ücüncümüz vardır.)</ListGroup.Item>
+          </ListGroup>
 
-        <b>Sumo</b>
-        <ol>
-          <li>Senju</li>
-          <li>İtachi</li>
-          <li>Aragon</li>
-        </ol>
+          <ListGroup className="ordered from-second" as="ol">
+            <ListGroup.Item as="li">Sumo</ListGroup.Item>
+            <ListGroup.Item as="li">Senju</ListGroup.Item>
+            <ListGroup.Item as="li">İtachi</ListGroup.Item>
+            <ListGroup.Item as="li">Aragon</ListGroup.Item>
+          </ListGroup>
 
-        <b>Arazi</b>
-        <ol>
-          <li>Börtecine</li>
-          <li>Kamyoncu</li>
-          <li>SUV4H</li>
-        </ol>
+          <ListGroup className="ordered from-second" as="ol">
+            <ListGroup.Item as="li">Arazi</ListGroup.Item>
+            <ListGroup.Item as="li">Börtecine</ListGroup.Item>
+            <ListGroup.Item as="li">Kamyoncu</ListGroup.Item>
+            <ListGroup.Item as="li">SUV4H</ListGroup.Item>
+          </ListGroup>
 
-        <b>Yangın Söndüren</b>
-        <ol>
-          <li>Lee-Fire</li>
-          <li>Tulumbacı</li>
-          <li>Ayasor</li>
-        </ol>
+          <ListGroup className="ordered from-second" as="ol">
+            <ListGroup.Item as="li">Yangın Söndüren</ListGroup.Item>
+            <ListGroup.Item as="li">Lee-Fire</ListGroup.Item>
+            <ListGroup.Item as="li">Tulumbacı</ListGroup.Item>
+            <ListGroup.Item as="li">Ayasor</ListGroup.Item>
+          </ListGroup>
 
-        <b>Çöp Toplayan</b>
-        <ol>
-          <li>Çöp Yiyen Arı</li>
-          <li>Çöperek Arısı</li>
-        </ol>
+          <ListGroup className="ordered from-second" as="ol">
+            <ListGroup.Item as="li">Çöp Toplayan</ListGroup.Item>
+            <ListGroup.Item as="li">Çöp Yiyen Arı</ListGroup.Item>
+            <ListGroup.Item as="li">Çöperek Arısı</ListGroup.Item>
+          </ListGroup>
 
-        <br/>
+          <br />
 
-        <Container>
-          <Row>
-            <Col xs={12} md={6} lg={4}>
-              <Image src="images/archive/2015/1.jpg" style={{ width: "100%", marginBottom: "30px" }}/>
-            </Col>
-            <Col xs={12} md={6} lg={4}>
-              <Image src="images/archive/2015/2.jpg" style={{ width: "100%", marginBottom: "30px" }}/>
-            </Col>
-            <Col xs={12} md={6} lg={4}>
-              <Image src="images/archive/2015/3.jpg" style={{ width: "100%", marginBottom: "30px" }}/>
-            </Col>
-            <Col xs={12} md={6} lg={4}>
-              <Image src="images/archive/2015/4.jpg" style={{ width: "100%", marginBottom: "30px" }}/>
-            </Col>
-            <Col xs={12} md={6} lg={4}>
-              <Image src="images/archive/2015/5.jpg" style={{ width: "100%", marginBottom: "30px" }}/>
-            </Col>
-            <Col xs={12} md={6} lg={4}>
-              <Image src="images/archive/2015/6.jpg" style={{ width: "100%", marginBottom: "30px" }}/>
-            </Col>
-          </Row>
-        </Container>
-       </IRLBase>
+          <Container>
+            <Row>
+              <Col xs={12} md={6} lg={4}>
+                <Image src="images/archive/2015/1.jpg" style={{ width: "100%", marginBottom: "30px" }} />
+              </Col>
+              <Col xs={12} md={6} lg={4}>
+                <Image src="images/archive/2015/2.jpg" style={{ width: "100%", marginBottom: "30px" }} />
+              </Col>
+              <Col xs={12} md={6} lg={4}>
+                <Image src="images/archive/2015/3.jpg" style={{ width: "100%", marginBottom: "30px" }} />
+              </Col>
+              <Col xs={12} md={6} lg={4}>
+                <Image src="images/archive/2015/4.jpg" style={{ width: "100%", marginBottom: "30px" }} />
+              </Col>
+              <Col xs={12} md={6} lg={4}>
+                <Image src="images/archive/2015/5.jpg" style={{ width: "100%", marginBottom: "30px" }} />
+              </Col>
+              <Col xs={12} md={6} lg={4}>
+                <Image src="images/archive/2015/6.jpg" style={{ width: "100%", marginBottom: "30px" }} />
+              </Col>
+            </Row>
+          </Container>
+        </IRLBase>
       </>
     )
   }
