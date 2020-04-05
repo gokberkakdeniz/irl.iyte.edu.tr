@@ -14,7 +14,23 @@
   --accent5: #520800;
   --accent6: #100E17;
   --accent7: #212529;
+
+  /* ====================================== */
+  /* ============= BOOTSTRAP ============== */
+  /* ====================================== */
+
+  /* ------------- List Group ------------- */
+  --ordered-list: #b2b9b9;
+  --ordered-list-header: #363636;
+  --ordered-list-header-text: #ffffff;
   
+  /* ------------- Accordion ------------- */
+  --accordion: #CDD6D6;
+  --accordion-text: #1f1919;
+  --accordion-header: #15170E;
+  --accordion-header-text: #ececec;
+  --accordion-accent: #C43B4E;
+
   /* ====================================== */
   /* ============= COMPONENTS ============= */
   /* ====================================== */
@@ -37,7 +53,7 @@
   --footer-love: #E25555;
 
   /* --------------- SECTION --------------- */
-  --section-title: #DCE6E6;
+  --section-title: #cdd6d6;
   --section-title-background: #100E17;
   --section-accent: #4682B4;
 

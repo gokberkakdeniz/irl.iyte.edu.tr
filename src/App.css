@@ -1,5 +1,59 @@
 @import './Themes/Carbon.css';
 
-section {
-    min-height: calc(100vh - 410px);
+/* ====================================== */
+/* ============= BOOTSTRAP ============== */
+/* ====================================== */
+
+/* ------------- List Group ------------- */
+.list-group.ordered {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.list-group.ordered .list-group-item {
+  background-color: var(--ordered-list);
+}
+
+.list-group.ordered .list-group-item:before {
+  counter-increment: ordered;
+  content: counter(ordered) ". ";
+}
+
+.list-group.ordered .list-group-item:first-of-type {
+  counter-reset: ordered;
+  border-radius: 0;
+}
+
+.list-group.ordered.from-second .list-group-item:first-of-type:before {
+  content: '';
+
+}
+.list-group.ordered.from-second .list-group-item:not(:first-child):before {
+  counter-increment: ordered_second;
+  content: counter(ordered_second) ". ";
+}
+
+.list-group.ordered.from-second .list-group-item:nth-of-type(2) {
+  counter-reset: ordered_second;
+}
+
+.list-group.ordered.from-second .list-group-item:first-of-type {
+  font-weight: 900;
+  background-color: var(--ordered-list-header);
+  color: var(--ordered-list-header-text);
+}
+
+/* ------------- Accordion ------------- */
+.accordion .card {
+  border-radius: 0;
+  background-color: var(--accordion);
+  border: 0;
+  color: var(--accordion-text);
+}
+
+.accordion .card .card-header {
+  color: var(--accordion-header-text);
+  background-color: var(--accordion-header);
+  border-left: 4px solid var(--accordion-accent);
+  font-family: 'Zilla Slab', serif;
 }
