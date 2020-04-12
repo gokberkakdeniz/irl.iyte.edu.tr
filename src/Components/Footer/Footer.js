@@ -74,11 +74,11 @@ export default class Footer extends React.Component {
 
               <div className="footer-bottom collapsable-container">
                 <p className="footer-copyright collapsable">
-                  Copyright © 2020, IZTECH RoboLeague. All rights are reserved. 
+                  Copyright © 2020, IZTECH RoboLeague.
                 </p>
                 &nbsp;
                 <p className="collapsable">
-                  <span id="footer-coded"> &lt;\&gt;</span> with <span id="footer-love">&lt;3</span> by <a href="http://gokberkakdeniz.com">Gökberk AKDENİZ</a>. { /* DO NOT DELETE ME :'( */ }
+                  <FontAwesomeIcon id="footer-coded" icon="code"/> with <FontAwesomeIcon id="footer-love" icon="heart"/> by <a href="http://gokberkakdeniz.com">Gökberk AKDENİZ</a>. { /* DO NOT DELETE ME :'( */ }
                 </p>
               </div>
             </Col>
