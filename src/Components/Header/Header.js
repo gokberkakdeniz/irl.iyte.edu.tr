@@ -18,7 +18,7 @@ export default function Header(props) {
     });
   
     return () => window.removeEventListener('click', () => {});
-  }, [])
+  })
 
   return (
     <Navbar ref={navbarNode} collapseOnSelect bg="dark" variant="dark" expand="lg" className="navbar-default" fixed="top">
